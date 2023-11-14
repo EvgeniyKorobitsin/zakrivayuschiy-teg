@@ -1,1 +1,27 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --container-size: min(100%, 700px);
+  /* Цвета */
+  --bg-color: #000;
+  --accent-color: #00CC14;
+  --heart-contour-color: #00CC14;
+  --heart-liked-color: red;
+  /* Шрифты */
+  --main-font: Inter;
+  --accent-font: PressStart2P;
+  --font-size: 18px;
+  --normal-wgth: 465;
+  --bold-wgth: 785;
+  --wdth: 100;
+  --font-header-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  /* Изображения */
+  --bg-image: url(../svg/pattern-dark.svg);
+  /* Анимации */
+  --standart-animation: .3s ease;
+}
+
+@media (width < 375px) {
+  :root {
+    --font-header-size: 2.8rem;
+  }
+}
