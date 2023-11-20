@@ -167,7 +167,7 @@
 .linear-gradient_to-bottom::after {
   content: '';
   position: absolute;
-  background-image: var(--gredient-to-bottom); 
+  background-image: var(--gredient-to-bottom);
   inset-block-start: 0;
   inset-inline-start: 0;
   inline-size: 100%;
@@ -234,7 +234,7 @@
   z-index: 1;
   opacity: .5;
   font-family: var(--accent-font, fantasy);
-  font-size: 14px; 
+  font-size: 14px;
   text-shadow:
   -1px 0 var(--label-contour-color), 
     0 1px var(--label-contour-color), 
