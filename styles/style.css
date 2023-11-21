@@ -376,7 +376,6 @@ dialog:-internal-dialog-in-top-layer {
   row-gap: 30px;
   column-gap: 20px;
   border: 2px solid currentColor;
-  padding: 0;
   padding: 30px 42px;
   color: var(--accent-color, #00CC14);
   background-color: var(--bg-color, #000);
@@ -397,7 +396,8 @@ dialog:-internal-dialog-in-top-layer {
 }
 
 .dialog:not([open]) {
-  opacity: 0;
+  /* opacity: 0; */
+  display: none;
   pointer-events: none;
 }
 
