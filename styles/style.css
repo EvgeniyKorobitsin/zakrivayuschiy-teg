@@ -433,10 +433,6 @@ dialog:-internal-dialog-in-top-layer {
 }
 
 @media (width >= 1440px) {
-  .content {
-    margin-block-start: 90px;
-  }
-
   .card__save-button {
     padding: 15px;
   }
